@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/675efddc10.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Momentum JS Clone</title>
   </head>
   <body>
@@ -12,16 +16,26 @@
         <h1>00:00</h1>
       </div>
       <form class="js-form form">
-        <input type="text" placeholder="What is your name?" />
+        <input
+          class="form_input"
+          type="text"
+          placeholder="What is your name?"
+        />
       </form>
       <h4 class="js-greetings greetings"></h4>
       <form class="js-toDoForm to-do-form">
         <input type="text" placeholder="Write your TO-DOs!" />
       </form>
       <ul class="js-toDoList to-do-list"></ul>
+      <div class="weather-container">
+        <i class="fas fa-cloud-sun"></i>
+        <span class="js-weather weather"></span>
+      </div>
     </div>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
